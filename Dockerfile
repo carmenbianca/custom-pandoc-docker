@@ -1,4 +1,4 @@
-FROM centos:8
+FROM fedora:latest
 
 RUN yum -y update; yum clean all
 
